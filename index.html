@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather application</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+    <h2>Search for a location: </h2>
+    <div class="padding" id="searchBox">
+    <input type="text" placeholder="Enter a Location" class="middle searchBar">
+    <button id="searchButton">Search</button>
+    </div>
+    <div class="padding">
+    <div>
+        <h4>Today's weather in <span id="city"></span>:</h4>
+    </div>
+        <div id="date">Jan 7th, 2023</div>
+        <div id="temp">Tempurature: 51 deg</div>
+        <div id="humidity">Humidity: 55%</div>
+        <div id="wind">Wind: 58mph</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
